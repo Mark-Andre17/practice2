@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body, ul, figure{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(237 215 215 / 31%);
+    /* width: 1480px; */
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    position: relative;
+    background-color: #324150;
+    height: 280px;
+    margin-bottom: 20px;
+}
+.menu{
+    position: fixed;
+    background-color: #324150;
+    height: 70px;
+    width: 100%;
+    top: 0;
+}
+.menu-items{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+.menu-href{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.menu-href:hover{
+    color: rgb(237 215 215 / 31%);
+}
+.header-info{
+    text-align: center;
+    padding-top: 50px;
+}
+.header-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+}
+.header-text{
+    color: white;
+    font-size: 40px;
+}
+.title-text{
+    text-align: center;
+    color: #555;
+    font-size: 40px;
+}
+.title-img{
+    display: block;
+    margin: auto;
+    width: 598px;
+    height: 219px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.title{
+    margin-bottom: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+
+}
+.sidebar-img{
+    width: 298px;
+    height: 109px;
+}
+.history-img{
+    width: 148px;
+    height: 148px;
+}
+.info-sidebar{
+    width: 333px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.sidebar-img{
+    border:1px solid black;
+    margin-bottom: 20px;
+}
+.info-sidebar-title{
+    color: #555;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+.info-sidebar-text{
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.sidebar-href{
+    color:#555;
+}
+.info-history{
+    width: 721px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.history-title{
+    color: #555;
+    text-transform: uppercase;
+}
+.history-text{
+    color:#555;
+    font-style: italic;
+}
+.history-imgs{
+    display:flex;
+    justify-content: space-between;
+}
+figcaption{
+    text-align: center;
+}
+figure:last-child{
+    width: 148px;
+}
+.info-text{
+    color: #555;
+    margin-bottom: 20px;
+}
+.apple-title{
+    text-transform: uppercase;
+    color: #555;
+}
+.info{
+    margin-bottom: 40px;
+}
+.footer{
+    height: 250px;
+    background-color: #ececec;
+}
+.footer-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.footer-items{
+    display: flex;
+}
+.footer-item{
+    border-right: 1px solid #555;
+}
+.footer-item:last-child{
+    border-right: 0px;
+}
+.footer-href{
+    color:#555;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.footer-ico{
+    display: flex;
+    gap: 20px
+}
